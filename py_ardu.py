@@ -1,6 +1,6 @@
 import serial
 
-RATIO = 9600
+BAUD_RATE = 9600
 PORT = 'COM3'
 ser = serial.Serial(PORT, RATIO)
 
